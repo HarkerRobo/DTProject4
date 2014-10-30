@@ -39,4 +39,10 @@ public class Drivetrain extends Subsystem {
         t3.set(0);
         t4.set(0);
     }
+    public void setTalonSpeed(double speed){
+        t1.set(speed);
+        t2.set(speed);
+        t3.set(speed);
+        t4.set(speed);
+    }
 }
