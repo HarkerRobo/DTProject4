@@ -27,4 +27,16 @@ public class Drivetrain extends Subsystem {
         t3.set(1);
         t4.set(1);
     }
+    public void setTalonReverse(){
+        t1.set(-1);
+        t2.set(-1);
+        t3.set(-1);
+        t4.set(-1);
+    }
+    public void setTalonStop(){
+        t1.set(0);
+        t2.set(0);
+        t3.set(0);
+        t4.set(0);
+    }
 }
