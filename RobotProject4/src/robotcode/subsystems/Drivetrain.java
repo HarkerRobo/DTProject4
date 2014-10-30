@@ -19,12 +19,12 @@ public class Drivetrain extends Subsystem {
     Talon t2=new Talon(2);
     Talon t3=new Talon(3);
     Talon t4=new Talon(4);
-    public void initDefaultCommand() {
-        public void setTalonForward()
-        {
-            
+    public void initDefaultCommand() {       
         }
-        // Set the default command for a subsystem here.
-        //setDefaultCommand(new MySpecialCommand());
+    public void setTalonForward(){
+        t1.set(1);
+        t2.set(1);
+        t3.set(1);
+        t4.set(1);
     }
 }
