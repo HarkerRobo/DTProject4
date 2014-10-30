@@ -5,6 +5,7 @@
  */
 package robotcode.subsystems;
 
+import edu.wpi.first.wpilibj.Talon;
 import edu.wpi.first.wpilibj.command.Subsystem;
 
 /**
@@ -14,8 +15,15 @@ import edu.wpi.first.wpilibj.command.Subsystem;
 public class Drivetrain extends Subsystem {
     // Put methods for controlling this subsystem
     // here. Call these from Commands.
-
+    Talon t1=new Talon(1);
+    Talon t2=new Talon(2);
+    Talon t3=new Talon(3);
+    Talon t4=new Talon(4);
     public void initDefaultCommand() {
+        public void setTalonForward()
+        {
+            
+        }
         // Set the default command for a subsystem here.
         //setDefaultCommand(new MySpecialCommand());
     }
